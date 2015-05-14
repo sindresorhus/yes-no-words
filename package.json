@@ -1,0 +1,52 @@
+{
+  "name": "yes-no-words",
+  "version": "0.0.0",
+  "description": "Get yes/no like words",
+  "license": "MIT",
+  "repository": "sindresorhus/yes-no-words",
+  "bin": {
+    "yes-no": "cli.js"
+  },
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "node test.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js",
+    "yes.json",
+    "no.json"
+  ],
+  "keywords": [
+    "cli-app",
+    "cli",
+    "bin",
+    "word",
+    "words",
+    "list",
+    "array",
+    "json",
+    "random",
+    "rand",
+    "yes",
+    "no",
+    "prompt",
+    "confirm",
+    "deny",
+    "answer"
+  ],
+  "dependencies": {
+    "meow": "^3.0.0",
+    "unique-random-array": "^1.0.0"
+  },
+  "devDependencies": {
+    "ava": "0.0.4"
+  }
+}
