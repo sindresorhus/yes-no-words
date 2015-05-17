@@ -6,13 +6,17 @@
 	"Deny",
 	"Disagreed",
 	"False",
+	"Fail",
 	"Forget it",
+	"LOLNO",
 	"Na",
+	"Nada",
 	"Nah",
 	"Naw",
 	"Nay",
 	"Negative",
 	"Negatory",
+	"Nerp",
 	"Never",
 	"Nix",
 	"No way",
@@ -20,5 +24,6 @@
 	"Nope",
 	"Not",
 	"Pass",
-	"Reject"
+	"Reject",
+	"Zero"
 ]
