@@ -17,7 +17,7 @@ var cli = meow({
 		'Options',
 		'  --all   Get all words instead of a random word',
 		'  --type  Type of word: yes|no|all  Default: all'
-	].join('\n')
+	]
 });
 
 var type = cli.flags.type || 'all';
