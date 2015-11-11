@@ -1,16 +1,15 @@
-'use strict';
-var test = require('ava');
-var yesNoWords = require('./');
+import test from 'ava';
+import x from './';
 
-test(function (t) {
-	t.assert(yesNoWords.yes.length > 0);
-	t.assert(yesNoWords.no.length > 0);
-	t.assert(yesNoWords.all.length > 0);
-	t.assert(yesNoWords.yesRandom());
-	t.assert(yesNoWords.noRandom());
-	t.assert(yesNoWords.allRandom());
-	t.assert(yesNoWords.allRandom() !== yesNoWords.allRandom());
-	t.assert(yesNoWords.all.indexOf('Yes') !== -1);
-	t.assert(yesNoWords.all.indexOf('No') !== -1);
+test(t => {
+	t.true(x.yes.length > 0);
+	t.true(x.no.length > 0);
+	t.true(x.all.length > 0);
+	t.ok(x.yesRandom());
+	t.ok(x.noRandom());
+	t.ok(x.allRandom());
+	t.not(x.allRandom(), x.allRandom());
+	t.not(x.all.indexOf('Yes'), -1);
+	t.not(x.all.indexOf('No'), -1);
 	t.end();
 });

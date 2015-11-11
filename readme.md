@@ -17,7 +17,7 @@ $ npm install --save yes-no-words
 ## Usage
 
 ```js
-var yesNoWords = require('yes-no-words');
+const yesNoWords = require('yes-no-words');
 
 yesNoWords.yesRandom();
 //=> 'Yisss'
