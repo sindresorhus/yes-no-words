@@ -11,5 +11,4 @@ test(t => {
 	t.not(x.allRandom(), x.allRandom());
 	t.not(x.all.indexOf('Yes'), -1);
 	t.not(x.all.indexOf('No'), -1);
-	t.end();
 });
