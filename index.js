@@ -1,9 +1,9 @@
 'use strict';
-var uniqueRandomArray = require('unique-random-array');
-var yes = require('./yes.json');
-var no = require('./no.json');
+const uniqueRandomArray = require('unique-random-array');
+const yes = require('./yes.json');
+const no = require('./no.json');
 
-var all = yes.concat(no).sort();
+const all = yes.concat(no).sort();
 
 exports.yes = yes;
 exports.no = no;

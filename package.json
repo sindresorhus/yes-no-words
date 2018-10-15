@@ -1,53 +1,53 @@
 {
-  "name": "yes-no-words",
-  "version": "1.4.0",
-  "description": "Get yes/no like words",
-  "license": "MIT",
-  "repository": "sindresorhus/yes-no-words",
-  "bin": {
-    "yes-no": "cli.js"
-  },
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.10.0"
-  },
-  "scripts": {
-    "test": "xo && ava"
-  },
-  "files": [
-    "index.js",
-    "cli.js",
-    "yes.json",
-    "no.json"
-  ],
-  "keywords": [
-    "cli-app",
-    "cli",
-    "bin",
-    "word",
-    "words",
-    "list",
-    "array",
-    "json",
-    "random",
-    "rand",
-    "yes",
-    "no",
-    "prompt",
-    "confirm",
-    "deny",
-    "answer"
-  ],
-  "dependencies": {
-    "meow": "^3.5.0",
-    "unique-random-array": "^1.0.0"
-  },
-  "devDependencies": {
-    "ava": "*",
-    "xo": "*"
-  }
+	"name": "yes-no-words",
+	"version": "1.4.0",
+	"description": "Get yes/no like words",
+	"license": "MIT",
+	"repository": "sindresorhus/yes-no-words",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "sindresorhus.com"
+	},
+	"bin": {
+		"yes-no": "cli.js"
+	},
+	"engines": {
+		"node": ">=6"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"files": [
+		"index.js",
+		"cli.js",
+		"yes.json",
+		"no.json"
+	],
+	"keywords": [
+		"cli-app",
+		"cli",
+		"bin",
+		"word",
+		"words",
+		"list",
+		"array",
+		"json",
+		"random",
+		"rand",
+		"yes",
+		"no",
+		"prompt",
+		"confirm",
+		"deny",
+		"answer"
+	],
+	"dependencies": {
+		"meow": "^5.0.0",
+		"unique-random-array": "^1.0.0"
+	},
+	"devDependencies": {
+		"ava": "^0.25.0",
+		"xo": "^0.23.0"
+	}
 }

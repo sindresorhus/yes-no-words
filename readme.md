@@ -4,13 +4,13 @@
 
 ![](https://cloud.githubusercontent.com/assets/170270/7630384/c62755ba-fa35-11e4-95a3-a9c51d376f4b.png)
 
-*The lists are just JSON files and can be used wherever.*
+*The lists are just JSON files and can be used anywhere.*
 
 
 ## Install
 
 ```
-$ npm install --save yes-no-words
+$ npm install yes-no-words
 ```
 
 
@@ -79,11 +79,11 @@ $ yes-no --help
     $ yes-no --all --type yes
     Absolutely
     Affirmative
-    ...
+    …
 
   Options
     --all   Get all words instead of a random word
-    --type  Type of word: yes|no|all  Default: all
+    --type  Type of word: yes|no|all  [Default: all]
 ```
 
 
@@ -99,4 +99,4 @@ $ yes-no --help
 
 ## License
 
-MIT © [Sindre Sorhus](http://sindresorhus.com)
+MIT © [Sindre Sorhus](https://sindresorhus.com)
