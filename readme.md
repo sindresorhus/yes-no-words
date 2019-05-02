@@ -28,37 +28,37 @@ yesNoWords.yesRandom();
 
 ### .yes
 
-Type: `array`
+Type: `string[]`
 
 Yes like words.
 
 ### .no
 
-Type: `array`
+Type: `string[]`
 
 No like words.
 
 ### .all
 
-Type: `array`
+Type: `string[]`
 
 Both yes and no like words.
 
 ### .yesRandom()
 
-Type: `function`
+Type: `Function`
 
 Random yes like words.
 
 ### .noRandom()
 
-Type: `function`
+Type: `Function`
 
 Random no like words.
 
 ### .allRandom()
 
-Type: `function`
+Type: `Function`
 
 Random yes or no like words.
 
