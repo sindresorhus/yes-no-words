@@ -1,7 +1,7 @@
 {
 	"name": "yes-no-words",
 	"version": "1.4.0",
-	"description": "Get yes/no like words",
+	"description": "Get yes/no-like words",
 	"license": "MIT",
 	"repository": "sindresorhus/yes-no-words",
 	"author": {
@@ -28,7 +28,6 @@
 	"keywords": [
 		"cli-app",
 		"cli",
-		"bin",
 		"word",
 		"words",
 		"list",

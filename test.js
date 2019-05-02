@@ -9,6 +9,6 @@ test('main', t => {
 	t.truthy(yesNoWords.noRandom());
 	t.truthy(yesNoWords.allRandom());
 	t.not(yesNoWords.allRandom(), yesNoWords.allRandom());
-	t.not(yesNoWords.all.indexOf('Yes'), -1);
-	t.not(yesNoWords.all.indexOf('No'), -1);
+	t.true(yesNoWords.all.includes('Yes'));
+	t.true(yesNoWords.all.includes('No'));
 });

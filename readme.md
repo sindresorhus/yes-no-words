@@ -1,6 +1,6 @@
 # yes-no-words [![Build Status](https://travis-ci.org/sindresorhus/yes-no-words.svg?branch=master)](https://travis-ci.org/sindresorhus/yes-no-words)
 
-> Get yes/no like words
+> Get yes/no-like words
 
 ![](https://cloud.githubusercontent.com/assets/170270/7630384/c62755ba-fa35-11e4-95a3-a9c51d376f4b.png)
 
