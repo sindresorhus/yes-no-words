@@ -1,4 +1,4 @@
-# yes-no-words [![Build Status](https://travis-ci.org/sindresorhus/yes-no-words.svg?branch=master)](https://travis-ci.org/sindresorhus/yes-no-words)
+# yes-no-words
 
 > Get yes/no-like words
 
