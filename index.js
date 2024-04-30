@@ -1,13 +1,16 @@
-'use strict';
-const uniqueRandomArray = require('unique-random-array');
-const yes = require('./yes.json');
-const no = require('./no.json');
+import uniqueRandomArray from 'unique-random-array';
+import yesWords from './yes-words.json' with {type: 'json'};
+import noWords from './no-words.json' with {type: 'json'};
 
-const all = yes.concat(no).sort();
+const allWords = yesWords.concat(noWords).sort();
 
-exports.yes = yes;
-exports.no = no;
-exports.all = all;
-exports.yesRandom = uniqueRandomArray(yes);
-exports.noRandom = uniqueRandomArray(no);
-exports.allRandom = uniqueRandomArray(all);
+const yesNoWords = {};
+
+yesNoWords.yes = yesWords;
+yesNoWords.no = noWords;
+yesNoWords.all = allWords;
+yesNoWords.yesRandom = uniqueRandomArray(yesWords);
+yesNoWords.noRandom = uniqueRandomArray(noWords);
+yesNoWords.allRandom = uniqueRandomArray(allWords);
+
+export default yesNoWords;

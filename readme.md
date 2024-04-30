@@ -6,67 +6,63 @@
 
 *The lists are just JSON files and can be used anywhere.*
 
-
 ## Install
 
+```sh
+npm install yes-no-words
 ```
-$ npm install yes-no-words
-```
-
 
 ## Usage
 
 ```js
-const yesNoWords = require('yes-no-words');
+import yesNoWords from 'yes-no-words';
 
 yesNoWords.yesRandom();
 //=> 'Yisss'
 ```
 
-
 ## API
 
-### .yes
+### `.yes`
 
 Type: `string[]`
 
 Yes like words.
 
-### .no
+### `.no`
 
 Type: `string[]`
 
 No like words.
 
-### .all
+### `.all`
 
 Type: `string[]`
 
 Both yes and no like words.
 
-### .yesRandom()
+### `.yesRandom()`
 
 Type: `Function`
 
 Random yes like words.
 
-### .noRandom()
+### `.noRandom()`
 
 Type: `Function`
 
 Random no like words.
 
-### .allRandom()
+### `.allRandom()`
 
 Type: `Function`
 
 Random yes or no like words.
 
-
 ## CLI
 
-```
-$ npm install --global yes-no-words
+```sh
+npm install --global yes-no-words
 ```
 
 ```
@@ -86,7 +82,6 @@ $ yes-no --help
     --type  Type of word: yes|no|all  [Default: all]
 ```
 
-
 ## Related
 
 - [cat-names](https://github.com/sindresorhus/cat-names) - Get popular cat names
@@ -95,8 +90,3 @@ $ yes-no --help
 - [superheroes](https://github.com/sindresorhus/superheroes) - Get superhero names
 - [supervillains](https://github.com/sindresorhus/supervillains) - Get supervillain names
 - [superb](https://github.com/sindresorhus/superb) - Get superb like words
-
-
-## License
-
-MIT © [Sindre Sorhus](https://sindresorhus.com)

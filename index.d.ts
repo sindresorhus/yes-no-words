@@ -1,52 +1,49 @@
-import yes = require('./yes.json');
-import no = require('./no.json');
-
 declare const yesNoWords: {
 	/**
 	Yes like words.
 
 	@example
 	```
-	import yesNoWords = require('yes-no-words');
+	import yesNoWords from 'yes-no-words';
 
 	yesNoWords.yes;
 	//=> ['Absolutely', 'Ack', …]
 	```
 	*/
-	readonly yes: Readonly<typeof yes>;
+	readonly yes: readonly string[];
 
 	/**
 	No like words.
 
 	@example
 	```
-	import yesNoWords = require('yes-no-words');
+	import yesNoWords from 'yes-no-words';
 
 	yesNoWords.no;
 	//=> ['Absolutely not', 'Ahhh nah', …]
 	```
 	*/
-	readonly no: Readonly<typeof no>;
+	readonly no: readonly string[];
 
 	/**
 	Both yes and no like words.
 
 	@example
 	```
-	import yesNoWords = require('yes-no-words');
+	import yesNoWords from 'yes-no-words';
 
 	yesNoWords.all;
 	//=> ['Absolutely', 'Absolutely not', 'Ack', …]
 	```
 	*/
-	readonly all: Readonly<typeof yes> & Readonly<typeof no>;
+	readonly all: readonly string[];
 
 	/**
 	Random yes like words.
 
 	@example
 	```
-	import yesNoWords = require('yes-no-words');
+	import yesNoWords from 'yes-no-words';
 
 	yesNoWords.yesRandom();
 	//=> 'Yisss'
@@ -59,7 +56,7 @@ declare const yesNoWords: {
 
 	@example
 	```
-	import yesNoWords = require('yes-no-words');
+	import yesNoWords from 'yes-no-words';
 
 	yesNoWords.noRandom();
 	//=> 'Forget it'
@@ -72,7 +69,7 @@ declare const yesNoWords: {
 
 	@example
 	```
-	import yesNoWords = require('yes-no-words');
+	import yesNoWords from 'yes-no-words';
 
 	yesNoWords.allRandom();
 	//=> 'NEIN NEIN NEIN'
@@ -81,4 +78,4 @@ declare const yesNoWords: {
 	allRandom(): string;
 };
 
-export = yesNoWords;
+export default yesNoWords;

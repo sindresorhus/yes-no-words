@@ -1,5 +1,5 @@
 import test from 'ava';
-import yesNoWords from '.';
+import yesNoWords from './index.js';
 
 test('main', t => {
 	t.true(yesNoWords.yes.length > 0);
